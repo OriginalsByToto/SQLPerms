@@ -1,0 +1,16 @@
+database:
+  user: sqlperm
+  password: perms
+  db_name: sqlperm
+  port: 3306
+  host: originalsbytoto.com
+
+default_group: default
+  
+groups:
+  default:
+    perms:
+    - perms.test.default
+  admin:
+    perms:
+    - perms.test.admin

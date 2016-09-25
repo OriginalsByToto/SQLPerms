@@ -1,0 +1,9 @@
+author: OriginalsByToto
+name: SQLPerms
+version: 1.0.0
+main: com.originalsbytoto.bukkit.sqlperms.MainClass
+
+commands:
+  perms:
+    usage: /perms
+    description: List perms for player
